@@ -9,7 +9,7 @@ My architecture consists in a Multi-branch architecture where a CNN and a RNN wo
 Different variants of this architectures were trained and compared, obtaining a final architecture that managed to improve the original's ConvNet performance on the test dataset.
 
 In this repository you will find:
-- The Python libraries implemented for the different stages of development
+- The Python modules implemented for the different stages of development
   - *data_helper.py*: contains the Clips class and all the functions used to handle data in the first stages of the project (functions to download the dataset, load it, organize it into folders, split it into train/test and data augmentation);
   - *preprocess.py*: contains all the functions used for preprocessing, such as standardization, segmentation of the features and organization into folds;
   - *train_test_model.py*: contains the functions used to train the models, as well as the functions implemented to aggregate predictions and compute per-class accuracy in the test stage;
