@@ -15,6 +15,5 @@ In this repository you will find:
   - *train_test_model.py*: contains the functions used to train the models, as well as the functions implemented to aggregate predictions and compute per-class accuracy in the test stage;
   - *plot_utils.py*: contains all the functions related to visualization, from the first stages to the final models comparison.
 - The main Jupyter notebook, *CRNN-Mb.ipynb* where all training and module selection process is explained.
-- The .h5 file with the best overall performing variant of the model (1000 units per FC layer, 32 bi-GRU units) *cnn2d_rnn_multibranch_32_1000_T.h5*
 - The *DEMO.ipynb* notebook, where the final model accuracy is seen in detail for a selection of classes from the test dataset.
 - The *requirements.txt* text files with all the requirements needed to run the notebooks.
