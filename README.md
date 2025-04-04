@@ -3,7 +3,7 @@
 This repository contains the model I developed for the Machine Learning for Human Data course of the Physics of Data Master's Degree at the University of Padua.    
 The project, inspired mainly by the pioneering work of Piczak et. al. (https://www.karolpiczak.com/papers/Piczak2015-ESC-ConvNet.pdf), who were among the firsts to approach the Environmental Sound Classification task by using a CNN based architecture, ConvNet.    
 In my project, I worked with the ESC-50 dataset developed and used by the authors (https://www.karolpiczak.com/papers/Piczak2015-ESC-Dataset.pdf), consisting of 50 classes of various environmental sounds.    
-![Senza titolo|300](https://github.com/user-attachments/assets/c281f008-b540-4cd9-86eb-00e0a865dd03)
+![Senza titolo|100](https://github.com/user-attachments/assets/c281f008-b540-4cd9-86eb-00e0a865dd03)
 
 My architecture consists in a Multi-branch architecture where a CNN and a RNN work in parallel to process different features extracted from the raw audio data (Mel-spectrograms and MFCCs respectively); the outputs are then concatenated before the Fully Connected Layers and Output (Softmax) Layer.    
 Different variants of this architectures were trained and compared, obtaining a final architecture that managed to improve the original's ConvNet performance on the test dataset.
